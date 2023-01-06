@@ -12,7 +12,7 @@ keep_files:
   - /theme/asset/
 env:
   - THEME_DIR: /theme
-product_name: "Website RMA (Return Merchandise Authorization) in Odoo"
+product_name: "Test 123"
 product_logo: "logo.png"
 product_version:
  - 14
