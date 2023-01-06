@@ -2,7 +2,7 @@
 is_index: True
 ---
 - [Overview](overview.md)
-- [header](header.md)
+- {: .has_child} [Header](header.md)
   - [Change Header Style](header/change-header-style.md)
 - {: .has_child} [Menu](menu.md)
   - [Mega Menu](menu/mega-menu.md)
