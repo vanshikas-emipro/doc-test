@@ -1,0 +1,10 @@
+{% if site.logo %}
+$logo: "{{ site.logo | absolute_url }}";
+{% endif %}
+{% if site.product_logo %}
+$product_logo: "{{ site.product_logo | absolute_url }}";
+{% endif %}
+@import "support/support.scss";
+@import "color_schemes/{{ include.color_scheme }}";
+@import "./modules";
+{% include css/custom.scss.liquid %}

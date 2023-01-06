@@ -1,0 +1,15 @@
+<div class="float-left ept-ug-mh-l">
+	<a href="{{ '/' | absolute_url }}" class="ept_a_prd_logo"><div class="ept-prd-logo"></div></a>
+	<div class="ept-prd-name">{{ site.product_name }}</div>
+	<div class="ept-prd-ug-text">User Guide</div>
+</div>
+<div class="float-right ept-ug-mh-r">Odoo Version
+	<select onchange="javascript:changeProductVersion(this)" class="ept-prd-vr">
+		{%- for version in site.product_version -%}
+			<option value="{{ version }}">{{ version }}</option>
+		{%- endfor -%}
+	</select>
+	<span id="request_quote" class="href_target contact_us_button" role="">
+	<a class="button_contact_us_blue text-uppercase" target="_blank" href="https://www.emiprotechnologies.com/requestquote" role="">Contact Us </a>
+	</span>
+</div>

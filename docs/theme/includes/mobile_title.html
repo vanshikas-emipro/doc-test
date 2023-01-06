@@ -1,0 +1,15 @@
+{% if site.product_logo %}
+  <div class="float-left ept-ug-mh-l">
+    <div class="ept-prd-logo"></div>
+</div>
+<div class="ept-prd-name">{{ site.product_name }}</div>
+<div class="float-left ept-ug-mh-r">
+  <select onchange="javascript:changeProductVersion(this)" class="ept-prd-vr">
+    {%- for version in site.product_version -%}
+      <option value="{{ version }}">{{ version }}</option>
+    {%- endfor -%}
+  </select>
+</div>
+{% else %}
+  {{ site.product_name }}
+{% endif %}

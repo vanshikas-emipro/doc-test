@@ -1,0 +1,55 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  {% unless site.plugins contains "jekyll-seo-tag" %}
+  {% if page.title != nil %}
+    <title>{{ page.title }} - {{ site.product_name }} By Emipro</title>
+  {% else %}
+    <title>{{ site.product_name }} By Emipro</title>
+  {% endif %}
+    {% if page.description %}
+      <meta name="Description" content="{{ page.description }}">
+    {% endif %}
+  {% endunless %}
+
+  <!-- <link rel="shortcut icon" href="{{ 'favicon.ico' | relative_url }}" type="image/x-icon"> -->
+  <link rel="shortcut icon" href="{{ 'theme/assets/images/favicon.ico' | relative_url}}" type="image/x-icon">
+  
+
+  <link rel="stylesheet" href="{{ 'theme/assets/css/just-the-docs-default.css' | relative_url }}">
+
+  {% if site.ga_tracking != nil %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
+    </script>
+
+  {% endif %}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26090214-12"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26090214-12');
+</script>
+  
+  {% if site.search_enabled != false %}
+    <script type="text/javascript" src="{{ 'theme/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+  {% endif %}
+  <script type="text/javascript" src="{{ 'theme/assets/js/just-the-docs.js' | relative_url }}"></script>
+  <script src="{{'/theme/assets/js/jquery.min.js' | prepend: site.baseurl}}"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% seo %}
+
+  {% include head_custom.html %}
+
+</head>

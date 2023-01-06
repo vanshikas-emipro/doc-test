@@ -1,0 +1,19 @@
+markdown: kramdown
+layouts_dir: /theme/layout
+logo: "theme/assets/images/ept_doc.png"
+search_enabled: false
+heading_anchors: true
+extra:
+  generator: false
+includes_dir: /theme/includes/
+sass:
+  sass_dir: /theme/_sass/
+keep_files:
+  - /theme/asset/
+env:
+  - THEME_DIR: /theme
+product_name: "Website RMA (Return Merchandise Authorization) in Odoo"
+product_logo: "logo.png"
+product_version:
+ - 14
+ - 13

@@ -1,0 +1,12 @@
+<ul>
+  {%- assign index_page = include.pages
+        | where_exp:"item", "item.is_index != nil" -%}
+  
+  {%- for node in index_page -%}
+    {%- if page.dir contains node.dir -%}
+      <li>
+            <a href="{{ node.url | absolute_url }}" class="nav-list-link">{{ node.content }}</a>
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
