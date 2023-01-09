@@ -5,7 +5,7 @@
 </figure>
 
 [![Watch the video](https://i.ytimg.com/vi_webp/9tcrpQMkalY/sddefault.webp)](https://i.ytimg.com/vi_webp/9tcrpQMkalY/sddefault.webp)
-
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
 With this feature, you can create a dynamic mega menu by selecting all or a specific ecommerce category from backend. There are six different styles available to apply based on the choice
 
