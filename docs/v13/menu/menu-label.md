@@ -12,7 +12,7 @@ Steps to configure Menu labels:
 - **Step 3:** Enter the Menu label and Menu label text with the colour that you want to have the menu label and click on the **Save** button.
 
 
-> ### TIP
+> ###### TIP
 > You can assign menu label and colour at the time of menu creation from the website editor panel.
 
 
