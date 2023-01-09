@@ -2,9 +2,9 @@
 - To create a mega menu, go to a __Web Page / Pages / Edit Menu__  and click on __Add Mega Menu Item.__ It will show one popup to create a mega menu record.
 <img src="./image/9-1.jpg" alt="" />
 
-<img src="./image/9-1.jpg" alt="" />
+<img src="./image/9-2.jpg" alt="" />
 
-<img src="./image/9-1.jpg" alt="" />
+<img src="./image/9-3.jpg" alt="" />
 
 Steps to set the mega menu style :
 
