@@ -17,16 +17,19 @@ Follow below steps to create a dynamic mega menu.
 - **Step 4:** Check the Is Mega Menu option. After selecting this check box one option will appear as Dynamic mega menu. After selecting this option rest of the field will be enabled.
 
 1. Category Selection: 
+
 You can select what category you want to show in the menu as there are two options **All categories** and **Specific category**  (By default **Specific category** option is selected)
 
 <img src="./image/dmm1.jpg" alt="" />
 
 2. Select Category:  
+
 If you have selected the Specific category in Category Selection, then only this field will appear. Now, select a specific category for that particular dynamic mega menu.
 
 <img src="./image/dmm2.jpg" alt="" />
 
 3. Mega menu Style: 
+
 There are 6 different styles among which you can select any one as per your choice.
 
 Once you save the menu, you can see the result on the website.
@@ -46,17 +49,17 @@ Category Menu Labels
 
 
 
--**Step 2:** To assign menu lable to a particular ecommerce category, Go to Configuration > ecommerce categories > select any category. You can see the **menu label** field to select from the available menu labels list.
+- **Step 2:** To assign menu lable to a particular ecommerce category, Go to Configuration > ecommerce categories > select any category. You can see the **menu label** field to select from the available menu labels list.
 
 <img src="./image/dmm6.jpg" alt="" />
 
 
 
--**Step 3:** You can create a new menu label from the eCommerce category as well by typing the name of the label and clicking on create and edit
+- **Step 3:** You can create a new menu label from the eCommerce category as well by typing the name of the label and clicking on create and edit
 
--**Step 4:** Select the background color and text color of created menu label as per the need.
+- **Step 4:** Select the background color and text color of created menu label as per the need.
 
--**Step 5:** The menu label will be shown on the website for categories as below.
+- **Step 5:** The menu label will be shown on the website for categories as below.
 
 
 <img src="./image/dmm7.jpg" alt="" />
