@@ -1,5 +1,6 @@
 ###  Mega Menu 
 - To create a mega menu, go to a __Web Page / Pages / Edit Menu__  and click on __Add Mega Menu Item.__ It will show one popup to create a mega menu record.
+
 <img src="./image/9-1.jpg" alt="" />
 
 <img src="./image/9-2.jpg" alt="" />
@@ -12,6 +13,7 @@ Steps to set the mega menu style :
 - **Step 2:** Click on the mega menu in which you want to change the design.
 - **Step 3:** Check the snippets list on the left side of the web page as shown in the above screenshot. There are 6 snippets available to change the menu styles.
 - **Step 4:** Drag the snippet in the menu which you want to set and remove the old style that you set previously.
+
 <img src="./image/9-4.png" alt="" />
 
 
