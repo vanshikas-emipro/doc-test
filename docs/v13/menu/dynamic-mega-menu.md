@@ -17,13 +17,11 @@ Follow below steps to create a dynamic mega menu.
 - **Step 4:** Check the Is Mega Menu option. After selecting this check box one option will appear as Dynamic mega menu. After selecting this option rest of the field will be enabled.
 
 1. Category Selection: 
-
 You can select what category you want to show in the menu as there are two options **All categories** and **Specific category**  (By default **Specific category** option is selected)
 
 <img src="./image/dmm1.jpg" alt="" />
 
 2. Select Category:  
-
 If you have selected the Specific category in Category Selection, then only this field will appear. Now, select a specific category for that particular dynamic mega menu.
 
 <img src="./image/dmm2.jpg" alt="" />
