@@ -4,9 +4,7 @@
 
 <img src="./image/as1.png" alt="" />
 
-- <figure class="alert-warning"> 
-    <figcaption>Tick Advanced Search Option to enable the same and save the configuration</figcaption>
-</figure> 
+- <figcaption class="alert-warning">Tick Advanced Search Option to enable the same and save the configuration</figcaption> 
 
 
 > ##### NOTE
