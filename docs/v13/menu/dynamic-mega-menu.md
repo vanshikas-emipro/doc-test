@@ -21,13 +21,13 @@ You can select what category you want to show in the menu as there are two optio
 
 <img src="./image/dmm1.jpg" alt="" />
 
+
 2. Select Category:  
 If you have selected the Specific category in Category Selection, then only this field will appear. Now, select a specific category for that particular dynamic mega menu.
 
 <img src="./image/dmm2.jpg" alt="" />
 
 3. Mega menu Style: 
-
 There are 6 different styles among which you can select any one as per your choice.
 
 Once you save the menu, you can see the result on the website.
